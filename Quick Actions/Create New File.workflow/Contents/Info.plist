@@ -8,18 +8,19 @@
 			<key>NSBackgroundColorName</key>
 			<string>background</string>
 			<key>NSIconName</key>
-			<string>workflowCustomImage</string>
+			<string>NSTouchBarCircleAdd</string>
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Open in Visual Studio Code</string>
+				<string>Create New File</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
-			<key>NSSendFileTypes</key>
-			<array>
-				<string>public.item</string>
-			</array>
+			<key>NSRequiredContext</key>
+			<dict>
+				<key>NSApplicationIdentifier</key>
+				<string>com.apple.finder</string>
+			</dict>
 		</dict>
 	</array>
 </dict>
